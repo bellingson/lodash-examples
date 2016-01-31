@@ -1,0 +1,27 @@
+{
+  "name": "lodash-examples",
+  "version": "1.0.0",
+  "description": "examples for my lodash presentation",
+  "main": "index.js",
+  "dependencies": {
+    "lodash": "^4.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bellingson/lodash-examples.git"
+  },
+  "keywords": [
+    "lodash",
+    "javascript"
+  ],
+  "author": "ben@nofluffjuststuff.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bellingson/lodash-examples/issues"
+  },
+  "homepage": "https://github.com/bellingson/lodash-examples#readme"
+}
