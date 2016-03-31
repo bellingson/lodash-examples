@@ -10,12 +10,20 @@ var people = [
 	{ id: 6, name: "Larry", age: 68, gender: 'm', enabled: true }
 ];
 
-var byAge = _.sortBy(people, 'age');
-console.log(byAge);
+var a = _.filter(people,{age: 30});
+console.log(a);
 
-byAge = _.sortBy(people, ['age', 'name']);
-console.log(byAge);
+var b = _.filter(people, function(p) { return p.age >= 30; });
+console.log(b);
 
-byAge = _.sortBy(people, function(p) { return p.age; })
-console.log(byAge);
+var men = _.filter(people, { gender: 'm' });
+
+console.log(men);
+
+var jim = _.filter(people, { name: 'Jim', enabled: true });
+console.log(jim);
+
+
+
+
 

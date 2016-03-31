@@ -4,9 +4,13 @@
   "description": "examples for my lodash presentation",
   "main": "index.js",
   "dependencies": {
-    "lodash": "^4.1.0"
+    "lodash": "^4.7.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jshint": "^2.0.0",
+    "jshint": "^2.9.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
