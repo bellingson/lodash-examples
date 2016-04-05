@@ -1,0 +1,24 @@
+
+Use lodash-cli to create a custom build
+
+npm i -g lodash-cli
+
+// create core build
+
+lodash core
+
+// create modularized build
+// NOTE: good way to explore the source code and how it is authored
+
+lodash modularize
+
+// 	BUILD COMMANDS
+
+// category
+// Valid categories are “array”, “collection”, “date”, “function”, “lang”, “object”, “number”, “seq”, “string”, & “util”
+
+lodash category=array,collection
+
+// function
+
+lodash include=each,filter,map

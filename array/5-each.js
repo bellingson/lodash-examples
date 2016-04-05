@@ -21,3 +21,4 @@ var people = [
 _.each(people, function(p) { 
 	console.log(p.name);
 });
+
