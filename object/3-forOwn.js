@@ -4,7 +4,7 @@ var _ = require('lodash');
 
 var person = { id: 1, name: "Jim", age: 20, gender: 'm', enabled: true };
 
-_.forOwn(person, function(key, value) {
+_.forOwn(person, function(value, key) {
 
 console.log(key + '->' + value);
 
