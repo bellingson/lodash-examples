@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+	<title></title>	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.12.0/lodash.min.js"></script>
+
+</head>
+<body>
+
+<h3>Simple Performance Test</h3>
+
+<ul>
+	<li>Array.forEach</li>
+	<li>_.each</li>
+	<li>for loop</li>
+</ul>
+
+<script>
+
+var numbers = _.range(1, 1000000);
+
+// console.log(numbers);
+
+function fn(n) {  };
+
+console.time('forEach')
+
+// 1 - Array.forEach
+	numbers.forEach(fn);
+
+console.timeEnd('forEach');
+
+
+console.time('_.each');
+
+// 2 - _.each
+	_.each(numbers, fn);
+
+console.timeEnd('_.each');
+
+
+
+console.time('for loop')
+	
+// 3 - for loop	
+	var length = numbers.length;
+	for (var i=0;i<= length; i++) {
+		fn(numbers[i]);
+	}
+
+console.timeEnd('for loop');
+
+
+
+
+</script>
+
+		
+
+</body>	
+</html>
