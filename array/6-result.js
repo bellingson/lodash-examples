@@ -11,6 +11,7 @@ var object = {
 	}
 }
 
+console.log(_.result(object,'name'));
 console.log(_.result(object,'description'));
 
 // example of _.result with a default value

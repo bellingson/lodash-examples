@@ -17,6 +17,8 @@ var people = [
 	{ id: 13, name: "Donna", age: 26, gender: 'f', enabled: true }
 ];
 
+// create an array of values by running each item in a collection thru iteratee
+
 var names = _.map(people, 'name');
 
 console.log(names);

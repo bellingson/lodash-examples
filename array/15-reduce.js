@@ -10,6 +10,9 @@ var people = [
 	{ id: 6, name: "Larry", age: 68, gender: 'm', enabled: true }
 ];
 
+// reduces collection to a value which is a result of running each element
+// thru an iteree, where each invocation receives value of previous invocation
+
 var totalAge = _.reduce(people, function(result, item) {
 	return result + item.age;
 },0);

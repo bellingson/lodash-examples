@@ -10,6 +10,8 @@ var people = [
 	{ id: 6, name: "Larry", age: 68, gender: 'm', enabled: true }
 ];
 
+// find all matching items in a collection
+
 var a = _.filter(people,{age: 30});
 console.log(a);
 

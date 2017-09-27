@@ -17,6 +17,7 @@ var people = [
 	{ id: 13, name: "Donna", age: 26, gender: 'f', enabled: true }
 ];
 
+// perform a function for each item in a collection
 
 _.each(people, function(p) { 
 	console.log(p.name);

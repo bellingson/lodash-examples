@@ -8,3 +8,5 @@ console.log(foo);
 var bar = function() {};
 console.log(bar);
 
+console.log(_.isFunction(bar));
+

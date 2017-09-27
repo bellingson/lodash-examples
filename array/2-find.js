@@ -10,6 +10,8 @@ var people = [
 	{ id: 6, name: "Larry", age: 68, gender: 'm', enabled: true }
 ];
 
+// find first matching item in a collection
+
 var nancy = _.find(people, { name: 'Nancy'});
 console.log(nancy);
 

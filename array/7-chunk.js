@@ -17,6 +17,7 @@ var people = [
 	{ id: 13, name: "Donna", age: 26, gender: 'f', enabled: true }
 ];
 
+// split an array into an array of smaller sized arrays
 
 var grps = _.chunk(people, 2);
 console.log(grps);

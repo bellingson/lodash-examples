@@ -6,6 +6,6 @@ var person = { id: 1, name: "Jim", age: 20, gender: 'm', enabled: true };
 
 _.forOwn(person, function(value, key) {
 
-console.log(key + '->' + value);
+    console.log(key + '->' + value);
 
 });

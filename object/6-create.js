@@ -10,6 +10,8 @@ var people = [
 	{ id: 6, name: "Larry", age: 68, gender: 'm', enabled: true }
 ];
 
+// create an object that inherits from a prototype
+
 function Employee() {}
 Employee.prototype.greet = function() {
 	console.log('Hello ' + this.name);
